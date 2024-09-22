@@ -2,11 +2,6 @@
 # CTF File Transfer Tool
 
 **Global Transfer Command for CTFs**
-<p align="center">
-  <strong># CTF File Transfer Tool</strong><br>
-  <em>Global Transfer Command for CTFs</em>
-</p>
-
 
 <p align="center">
   <img src="ctf-transfer-small.png" alt="CTF Transfer" width="500">
