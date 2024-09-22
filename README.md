@@ -3,12 +3,6 @@
 
 **Global Transfer Command for CTFs**
 
-![CTF Transfer](ctf-transfer-small.png)
-
-<p align="center">
-  <img src="ctf-transfer-small.png" alt="CTF Transfer" width="300">
-</p>
-
 <p align="center">
   <img src="ctf-transfer-small.png" alt="CTF Transfer" width="500">
 </p>
