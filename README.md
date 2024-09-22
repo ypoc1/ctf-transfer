@@ -33,15 +33,17 @@ Serving HTTP on 192.168.1.60 port 80 (http://192.168.1.60:80/) ...
 ``
 ## Requirements
 Install the required Python packages:
-
+``
 ```bash
 pip install -r requirements.txt
-
+``
 ```bash
 chmod +x install.sh
-
+``
 ```bash
 ./install.sh
-
+``
+``
 ## Uninstall
 ./uninstall.sh
+``
