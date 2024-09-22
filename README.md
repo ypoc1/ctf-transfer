@@ -3,7 +3,7 @@
 
 **Global Transfer Command for CTFs**
 
-![CTF Transfer](images/ctf-transfer.png)
+![CTF Transfer](ctf-transfer.png)
 
 This tool helps you transfer files between machines by setting up a simple Python HTTP server and generating download commands (certutil, iwr, wget, curl). It's designed to streamline file transfers during CTF (Capture the Flag) competitions, making the process quicker and easier.
 
