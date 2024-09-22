@@ -9,6 +9,10 @@
   <img src="ctf-transfer-small.png" alt="CTF Transfer" width="300">
 </p>
 
+<p align="center">
+  <img src="images/ctf-transfer-small.png" alt="CTF Transfer" width="500">
+</p>
+
 This tool helps you transfer files between machines by setting up a simple Python HTTP server and generating download commands (certutil, iwr, wget, curl). It's designed to streamline file transfers during CTF (Capture the Flag) competitions, making the process quicker and easier.
 
 ## Features
