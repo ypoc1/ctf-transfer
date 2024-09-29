@@ -5,7 +5,25 @@ import psutil
 import sys
 import pyperclip
 import shutil
+from tqdm import tqdm
 from subprocess import Popen
+import requests
+
+def download_with_progress(url, filename):
+    response = requests.get(url, stream=True)
+    total_size = int(response.headers.get('content-length', 0))
+    block_size = 1024  # 1 Kilobyte
+
+    with open(filename, 'wb') as file, tqdm(
+            desc=filename,
+            total=total_size,
+            unit='B',
+            unit_scale=True,
+            unit_divisor=1024,
+    ) as bar:
+        for data in response.iter_content(block_size):
+            bar.update(len(data))
+            file.write(data)
 
 def get_network_interfaces():
     interfaces = psutil.net_if_addrs()
