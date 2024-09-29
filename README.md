@@ -74,3 +74,8 @@ To remove the tool, simply run the uninstallation script:
 ```bash
 ./uninstall.sh
 ```
+
+## Todo
+User choice Clipboard
+Transfer Progress
+
